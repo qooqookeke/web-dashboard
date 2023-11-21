@@ -3,7 +3,7 @@ import streamlit as st
 def main() :
     st.title('웹 대시보드') # 웹 화면에 표시하기 위해서는 st.0000로 표시되어야 함
 
-    print('웹 대시보드')
+    # print('웹 대시보드')
 
     st.text('웹 대시보드 개발하기')
 
@@ -20,6 +20,7 @@ def main() :
     st.info('정보성 메시지를 보여줄 때')
 
     st.error('문제가 발생했음을 보여주고 싶을 때')
+
 
 if __name__ == '__main__' :
     main()
